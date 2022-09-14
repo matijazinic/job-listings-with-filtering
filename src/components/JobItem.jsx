@@ -25,11 +25,7 @@ export default function JobItem({ item, handleFilter }) {
         className={`job-container ${item.featured ? "featured" : ""}`}
         style={styleFeatured}
       >
-        <img
-          className="job-logo"
-          src={`../src/assets/${item.logo}`}
-          alt={item.company}
-        />
+        <img className="job-logo" src={`${item.logo}`} alt={item.company} />
         <div className="job-info">
           <div className="job-info-company">
             <p className="job-info-company-title">{item.company}</p>
