@@ -11,6 +11,7 @@ challenge-starter-data
 node_modules
 dist
 dist-ssr
+deploy.sh
 *.local
 
 # Editor directories and files
